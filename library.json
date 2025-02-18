@@ -17,10 +17,11 @@
       "-Iconversions/private_include",
       "-Isensors/private_include",
       "-Itarget/private_include",
-      "-fno-rtti"
+      "-fno-rtti",
+      "-Itarget/jpeg_include"
     ],
     "includeDir": ".",
     "srcDir": ".",
-    "srcFilter": ["-<*>", "+<driver>", "+<conversions>", "+<sensors>"]
+    "srcFilter": ["-<*>", "+<driver>", "+<conversions>", "+<sensors>", "+<target>"]
   }
 }
